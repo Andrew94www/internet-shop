@@ -28,7 +28,7 @@ services:
   mysql:
     image: mysql:8
     environment:
-      - MYSQL_DATABASE=paindetect
+      - MYSQL_DATABASE=internet_shop
       - MYSQL_ROOT_PASSWORD=root
     volumes:
       - './tmp/volume/mysql:/var/lib/mysql'
